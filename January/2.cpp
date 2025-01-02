@@ -59,7 +59,7 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
     if (carry) {
         output = new ListNode(1, output);
     }
-    return output;
+    return reverseLinkedList(output);
 }
 
 
