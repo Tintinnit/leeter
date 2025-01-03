@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+// 67. Add Binary
+
 // Function to reverse a string
 void reverseString(string& str) {
     int left = 0, right = str.size() - 1;
